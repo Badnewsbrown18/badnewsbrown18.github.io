@@ -171,11 +171,13 @@ This is Assignement 2 for INFT 1206
     </div>
 
     <div class="red-panda">
-      <!-- insert picture element -->
-      <img srcset="
-                  red-panda-landscape.jpg
-                  red-panda-portrait-small.jpg  
-                  "
+      <!-- insert picture element
+      srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
+  sizes="(max-width: 600px) 480px,
+         800px"
+      -->
+      <img srcset="red-panda-landscape.jpg 480w,  red-panda-portrait-small.jpg 800w"
+          sizes="(max-width: 600px) 480px, 800px"
           src="red-panda-landscape.jpg"/> 
                   
           
